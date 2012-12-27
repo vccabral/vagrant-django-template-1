@@ -4,7 +4,7 @@
 Vagrant::Config.run do |config|
 	# Base box to build off, and download URL for when it doesn't exist on the user's system already
 	config.vm.box = "django-base"
-	config.vm.box_url = "http://vmimages.torchbox.com/django-base.box"
+	config.vm.box_url = "https://vmimages.torchbox.com/django-base.box"
 
 	# As an alternative (particularly for users outside the Torchbox office network),
 	# lucid32 should work just as well (because our provisioning script includes the steps
